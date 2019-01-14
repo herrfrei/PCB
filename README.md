@@ -23,6 +23,8 @@ Eine Platine um die Homematic Funkmodule HM-MOD-RPI-PCB und RF-RPI-MOD per USB a
 * 1x Ferritperle 30 Ohm 0805 (L1)
 * 2x IRLML6402 (Q1, Q2)
 * 1x IRLML2502 (Q1)
+* 1x Pinheader 2*6
+* 1x Pinheader 2*20
 
 ### EEPROM flashen
 Das EEPROM des FT232RL muss mit dem Programm [FT_Prog](https://www.ftdichip.com/Support/Utilities.htm#FT_PROG) programmiert werden. Ein passendes Template findet sich [hier](HB-RF-USB/FT232R_Template.xml).
