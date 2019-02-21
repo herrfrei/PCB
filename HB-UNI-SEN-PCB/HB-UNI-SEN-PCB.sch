@@ -610,4 +610,21 @@ Wire Wire Line
 	1150 2000 700  2000
 Wire Wire Line
 	2650 1000 2650 1050
+$Comp
+L Device:CP C1
+U 1 1 5C6F3B8E
+P 1200 5650
+F 0 "C1" H 1318 5696 50  0000 L CNN
+F 1 "10uF" H 1318 5605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 1238 5500 50  0001 C CNN
+F 3 "~" H 1200 5650 50  0001 C CNN
+	1    1200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5800 1200 5900
+Connection ~ 1200 5900
+Wire Wire Line
+	1200 5500 1200 5350
+Connection ~ 1200 5350
 $EndSCHEMATC
