@@ -27,5 +27,5 @@
   (lib (name atmel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/atmel.lib)(options "")(descr ""))
   (lib (name contrib)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/contrib.lib)(options "")(descr ""))
   (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr ""))
-  (lib (name Homebrew)(type Legacy)(uri C:/Users/alex/Documents/Homebrew/Homebrew.lib)(options "")(descr ""))
+  (lib (name Homebrew)(type Legacy)(uri ${KIPRJMOD}/../Homebrew.lib)(options "")(descr ""))
 )

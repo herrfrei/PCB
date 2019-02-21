@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:Conn_01x04 J1
+L HB-UNI-SEN-PCB-rescue:Conn_01x04-conn J1
 U 1 1 5ABE0D25
 P 6750 1050
 F 0 "J1" H 6750 1250 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 6750 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J2
+L HB-UNI-SEN-PCB-rescue:Conn_01x04-conn J2
 U 1 1 5ABE0DC1
 P 7350 1050
 F 0 "J2" H 7350 1250 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 7350 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_DIP_x01 SW1
+L HB-UNI-SEN-PCB-rescue:SW_DIP_x01-switches SW1
 U 1 1 5ABE0E28
 P 4050 2500
 F 0 "SW1" H 4050 2650 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 J3
+L HB-UNI-SEN-PCB-rescue:Conn_01x03-conn J3
 U 1 1 5ABE1EB3
 P 7350 2350
 F 0 "J3" H 7350 2550 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 7350 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 J4
+L HB-UNI-SEN-PCB-rescue:Conn_01x03-conn J4
 U 1 1 5ABE1F38
 P 7350 3200
 F 0 "J4" H 7350 3400 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 7350 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02 J5
+L HB-UNI-SEN-PCB-rescue:Conn_01x02-conn J5
 U 1 1 5ABE1F9E
 P 7350 3800
 F 0 "J5" H 7350 3900 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 7350 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02 J6
+L HB-UNI-SEN-PCB-rescue:Conn_01x02-conn J6
 U 1 1 5ABE2007
 P 7350 4450
 F 0 "J6" H 7350 4550 50  0000 C CNN
@@ -130,7 +130,7 @@ U 1 1 5ABE27F2
 P 6900 1950
 F 0 "R2" V 6980 1950 50  0000 C CNN
 F 1 "10K" V 6900 1950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6830 1950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6830 1950 50  0001 C CNN
 F 3 "" H 6900 1950 50  0001 C CNN
 	1    6900 1950
 	0    1    1    0   
@@ -141,13 +141,13 @@ U 1 1 5ABE28D1
 P 6900 2800
 F 0 "R3" V 6980 2800 50  0000 C CNN
 F 1 "10K" V 6900 2800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6830 2800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6830 2800 50  0001 C CNN
 F 3 "" H 6900 2800 50  0001 C CNN
 	1    6900 2800
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:Conn_01x02 J0
+L HB-UNI-SEN-PCB-rescue:Conn_01x02-conn J0
 U 1 1 5ABE2E32
 P 1650 900
 F 0 "J0" H 1650 1000 50  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 1650 5900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x04 J7
+L HB-UNI-SEN-PCB-rescue:Conn_01x04-conn J7
 U 1 1 5AC3B268
 P 7350 5300
 F 0 "J7" H 7350 5500 50  0000 C CNN
@@ -434,7 +434,6 @@ F 3 "" H 1250 900 50  0001 C CNN
 $EndComp
 Connection ~ 1250 900 
 NoConn ~ 2600 2000
-NoConn ~ 1150 2000
 NoConn ~ 2600 2400
 NoConn ~ 2600 2600
 NoConn ~ 2450 5650
@@ -559,4 +558,56 @@ Wire Wire Line
 	4700 2500 4800 2500
 Wire Wire Line
 	1250 900  1450 900 
+$Comp
+L HB-UNI-SEN-PCB-rescue:Conn_01x02-conn JR1
+U 1 1 5C6E818A
+P 3200 900
+F 0 "JR1" H 3200 1000 50  0000 C CNN
+F 1 "RAW" H 3200 700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3200 900 50  0001 C CNN
+F 3 "" H 3200 900 50  0001 C CNN
+	1    3200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5C6E826E
+P 2650 1050
+F 0 "#PWR0101" H 2650 800 50  0001 C CNN
+F 1 "GND" H 2650 900 50  0000 C CNN
+F 2 "" H 2650 1050 50  0001 C CNN
+F 3 "" H 2650 1050 50  0001 C CNN
+	1    2650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0102
+U 1 1 5C6E82C9
+P 700 2000
+F 0 "#PWR0102" H 700 1850 50  0001 C CNN
+F 1 "+12V" H 715 2173 50  0000 C CNN
+F 2 "" H 700 2000 50  0001 C CNN
+F 3 "" H 700 2000 50  0001 C CNN
+	1    700  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0103
+U 1 1 5C6E830B
+P 2650 900
+F 0 "#PWR0103" H 2650 750 50  0001 C CNN
+F 1 "+12V" H 2665 1073 50  0000 C CNN
+F 2 "" H 2650 900 50  0001 C CNN
+F 3 "" H 2650 900 50  0001 C CNN
+	1    2650 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 900  2650 900 
+Wire Wire Line
+	2650 1000 3000 1000
+Wire Wire Line
+	1150 2000 700  2000
+Wire Wire Line
+	2650 1000 2650 1050
 $EndSCHEMATC
